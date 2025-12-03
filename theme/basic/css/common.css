@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+/*테이블*/
+.to_table{border-top:2px solid #353535; background:#ffffff; margin:10px 0 10px 0;}
+.to_table caption{display:none;}
+.to_table thead tr th{font-weight:bold; border:1px solid #e0e0e0; background:#ededed; text-align:center; padding:12px; font-size:15px;}
+.to_table td{border:1px solid #e0e0e0; padding:12px; color:#666; text-align:center; border-collapse:collapse; font-size:14px;}
+.to_table tr.color td{ background: #f5fafb;}
+.to_table td.end{color:#3270bd;}
+.to_table td.end2{color:#25a99e;}
+@media (max-width: 991px) {
+.to_table thead tr th{padding:3px; font-size:12px;}
+.to_table td{padding:3px; font-size:11px;}
+}
+/*clearfix*/
+.cf{}/* 여기서 cf는 float속성을 가진 태그의 부모태그라고 생각한다.*/
+.cf:after{display:block; content:""; clear: both;}
+
+
+/* 준비중페이지 */
+#ready{text-align:center; background:url(../img/common/ready.png) no-repeat 50% 0; margin:80px 0;  
+        padding-top:130px; font-size:1.5em; line-height:1.3em; color:#333;}
+#ready strong{font-weight:600; color:#009ee3;}
+#ready p{font-size:0.8em; color:#666;}
